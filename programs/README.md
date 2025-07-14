@@ -37,6 +37,8 @@ If you are using Windows, you need to manullay add the command line version of R
 
 This is a good moment to verify that python has been added to the system PATH during its installation. Check if the PATH includes the directory of your python, e.g. ```C:\Program Files\python312\``` and ```C:\Program Files\python312\Scripts\```.
 
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/rscript.png" alt="system path" width="750">
+
 ## 3. Obtain tracer
 
 The program tracer is used to assess convergence of Bayesian inferences based on the analyses log file. You can find it [here](https://github.com/beast-dev/tracer/releases). These are executable files and no installation is needed.
@@ -61,19 +63,11 @@ The program tracer is used to assess convergence of Bayesian inferences based on
 
 ## 5. Create a virtual python environment
 
-- Create a virtual environment called _venv_
-
-	- On Windows use _py_
-
-		```
-		py -m -venv venv
-		```
-
-	- On Mac and Linux
+- Create a virtual environment called _venv_. Sometimes Window requires ```py``` instead of ```python```
 	
-		```
-		python -m -venv venv
-		```
+	```
+	python -m -venv venv
+	```
 
 - Activate the virtual environment
 
@@ -129,3 +123,5 @@ Mac/Linux:
 ```
 python ./programs/test_cpeg_programs.py
 ```
+
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/test_cpeg_programs.png" alt="test installations" width="500">
