@@ -41,6 +41,7 @@ This is a good moment to verify that python has been added to the system PATH du
 
 RStudio is recommended for the DeepDive tutorial but not an requirement. You can install it from [here](https://posit.co/downloads/).
 
+
 ## 3. Obtain Tracer
 
 The program Tracer is used to assess convergence of Bayesian inferences by opening a _log_ file of an analyses. You can download it from [here](https://github.com/beast-dev/tracer/releases). Tracer is an executable file that can just be opened and no installation is needed.
