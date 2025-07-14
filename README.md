@@ -18,4 +18,4 @@ Coming soon!
 Coming soon!
 
 ## Acknowledgements
-Coming soon!
+We thank the Organising Committee of the 2025 Crossing the Palaeontological-Ecological Gap Meeting & Conservation Palaeobiology Symposium.
