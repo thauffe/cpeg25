@@ -13,3 +13,9 @@ To get ready for the workshop, please follow the installation [instructions](htt
 
 ## Tutorials
 Coming soon!
+
+## Contacts
+Coming soon!
+
+## Acknowledgements
+Coming soon!
