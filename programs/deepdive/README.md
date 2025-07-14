@@ -1,6 +1,6 @@
 # DeepDive 
 
-You can install DeepDive either in your default Python environment, which will make the library available in any new Python instance, or within a virtual environment. The latter is particularly useful if you do not want DeepDive's dependencies to interfere with the libraries install in your default environment.
+You can install DeepDive either in your default Python environment, which will make the library available in any new Python instance, or within a virtual environment. The latter is particularly useful if you do not want DeepDive's dependencies to interfere with the libraries installed in your default environment.
 
 Before you start, make sure Python (v.3.10 - 3.12) is installed in your computer (you can find installers [here](https://www.python.org/downloads/)).
 Note that the required [Tensorflow library](https://www.tensorflow.org) does not yet support Python v.3.13.  
@@ -25,7 +25,7 @@ You can install DeepDive in a virtual environment to make sure all the compatibl
 python -m venv desired_path_to_env/dd_env
 ```  
 
-2) Activate the virtual environment using on MacOS/UNIX: 
+2) Activate the virtual environment on MacOS/UNIX using: 
 
 ```
 source desired_path_to_env/dd_env/bin/activate
