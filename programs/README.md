@@ -39,9 +39,11 @@ This is a good moment to verify that python has been added to the system PATH du
 
 <img src="https://github.com/thauffe/cpeg25/blob/main/pictures/rscript.png" alt="system path" width="750">
 
-## 3. Obtain tracer
+RStudio is recommended for the DeepDive tutorial but not an requirement. You can install it from [here](https://posit.co/downloads/).
 
-The program tracer is used to assess convergence of Bayesian inferences based on the analyses log file. You can find it [here](https://github.com/beast-dev/tracer/releases). These are executable files and no installation is needed.
+## 3. Obtain Tracer
+
+The program Tracer is used to assess convergence of Bayesian inferences by opening a _log_ file of an analyses. You can download it from [here](https://github.com/beast-dev/tracer/releases). Tracer is an executable file that can just be opened and no installation is needed.
 
 ## 4. Download the cpeg25 github repository
 
