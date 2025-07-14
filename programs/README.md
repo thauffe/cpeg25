@@ -19,7 +19,7 @@ This installation has not been tested on machines using ARM CPUs like Chromebook
 
 If you are using Windows, make sure to check the two boxes _Install launcher_ and _Add python to PATH_
 
-<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/python_path.png" alt="Check boxes" width="1000">
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/python_path.png" alt="Check boxes" width="750">
 
 ## 2. Install R
 
@@ -61,13 +61,14 @@ The program tracer is used to assess convergence of Bayesian inferences based on
 
 ## 5. Create a virtual python environment
 
--Create a virtual environment called _venv_
+- Create a virtual environment called _venv_
 
 	- On Windows use _py_
 
 		```
 		py -m -venv venv
 		```
+
 	- On Mac and Linux
 	
 		```
@@ -75,6 +76,7 @@ The program tracer is used to assess convergence of Bayesian inferences based on
 		```
 
 - Activate the virtual environment
+
 	- Windows
 
 		```
