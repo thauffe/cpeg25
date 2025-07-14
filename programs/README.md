@@ -1,5 +1,5 @@
 # Installation manual
-For the CPEG course we need the program python, R, and tracer. This tutorial shows how to install them and the required add-on packages.
+For the CPEG course we need the programs Python, R, and Tracer. This tutorial shows how to install them and the required add-on packages.
 
 ## 1. Install python 3.12
 
@@ -25,7 +25,7 @@ If you are using Windows, make sure to check the two boxes _Install launcher_ an
 
 Download and install [R](https://cran.rstudio.com/)
 
-If you are using Windows, you need to manullay add the command line version of R (called _Rscript.exe_) onto your PATH system variables. You can find some instructions (here](https://www.java.com/en/download/help/path.html)
+If you are using Windows, you need to manullay add the command line version of R (called _Rscript.exe_) onto your PATH system variables. You can find some instructions [here](https://www.java.com/en/download/help/path.html)
 
 - Press Windows + R keys
 - Type _sysdm.cpl_ to open the control panel
