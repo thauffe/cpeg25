@@ -63,7 +63,7 @@ The program tracer is used to assess convergence of Bayesian inferences based on
 
 ## 5. Create a virtual python environment
 
-- Create a virtual environment called _venv_. Sometimes Window requires ```py``` instead of ```python```
+- Create a virtual environment called _venv_ within your cpeg25 folder. Sometimes Window requires ```py``` instead of ```python```
 	
 	```
 	python -m -venv venv
