@@ -14,8 +14,12 @@ To get ready for the workshop, please follow the installation [instructions](htt
 ## Tutorials
 Coming soon!
 
-## Contacts
-Coming soon!
+## Further reading
+Here are some papers describing the methods we'll present at the workshop:  
+PyRate: [Silvestro et al. 2019 Paleobiology](https://doi.org/10.1017/pab.2019.23)  
+BDNN model: [Hauffe et al. 2024 Science Adv](https://www.science.org/doi/full/10.1126/sciadv.adl2643)  
+DeepDive: [Cooper et al. 2024 Nature Comms](https://www.nature.com/articles/s41467-024-48434-7), application note: [Cooper et al. 2024 bioRxiv](https://doi.org/10.1101/2024.09.03.610960)
+
 
 ## Acknowledgements
 We thank the Organising Committee of the 2025 Crossing the Palaeontological-Ecological Gap Meeting & Conservation Palaeobiology Symposium.
