@@ -69,7 +69,7 @@ The program Tracer is used to assess convergence of Bayesian inferences by openi
 - Create a virtual environment called _venv_ within your cpeg25 folder. Sometimes Window requires ```py``` instead of ```python```
 	
 	```
-	python -m -venv venv
+	python -m venv venv
 	```
 
 - Activate the virtual environment
