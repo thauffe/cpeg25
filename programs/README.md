@@ -48,7 +48,7 @@ The program Tracer is used to assess convergence of Bayesian inferences by openi
 
 ## 4. Download the cpeg25 github repository
 
-- Use the green _code_ button to download a zip folder, unpack it, and rename it from _cpeg25-main_ to just cpeg25
+- Use the green _code_ button (on the [start page](https://github.com/thauffe/cpeg25)) to download a zip folder of the cpeg25 repository, unpack it, and rename it from _cpeg25-main_ to just cpeg25
 - Open your command prompt window on Windows or a terminal console on Mac/Linux and move with `cd` into your cpeg25 folder
 	- You need to use backslashes on Windows, e.g.
 
