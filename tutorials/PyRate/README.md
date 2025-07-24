@@ -125,7 +125,9 @@ Lastly, we set the number of mcmc generation `-n`, the sampling frequency of the
 Terminal output of the initialized PyRate analysis, which will take ca. 3 minutes to complete 500,000 MCMC iterations.
 
 ### Inspecting the MCMC log file
-The PyRate run creates a new folder called _pyrate_mcmc_logs_ in your _pyrate_analysis_ directory. Within this new folder, you will find the MCMC log file called _Proboscidea_1_Grj_mcmc.log_. You can use the program _Tracer _ to check the analysis for convergence and the approximate length of the burn-in period.
+The PyRate run creates a new folder called _pyrate_mcmc_logs_ in your _pyrate_analysis_ directory. Within this new folder, you will find the MCMC log file called _Proboscidea_1_Grj_mcmc.log_. You can use the program _Tracer_ to check the analysis for convergence and the approximate length of the burn-in period.
+
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/tracer.png" alt="trace plot" width="700">
 
 ### Plotting speciation and extinction rates through time
 The _sp_rates.log_ and _ex_rates.log_ files form the _pyrate_mcmc_logs_ folder can be used to generate rates-through-time plots using the function `-plotRJ`. The flag `-b` specifies the burn-in period, which we set to 25%. 
