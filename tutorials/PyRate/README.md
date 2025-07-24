@@ -59,7 +59,7 @@ The fossil occurrence need to be converted to a PyRate specific format, which wi
 ## PyRate: inferring speciation and extinction rates through time
 
 ### Navigate to your cpeg25 repository and activate the virtual environment
-The PyRate inference will be performed in your command window or terminal and make use of your virtual environment. Move into your cpeg25 repository and activate the venv.
+The PyRate inference will be performed in your command window or terminal and makes use of your virtual environment. Move into your cpeg25 repository and activate the venv.
 
 * Windows
  
@@ -83,13 +83,13 @@ You can write the respective command in a single line in your terminal. Please, 
 * Windows
 
     ```
-    python .\programs\PyRate\PyRate.py .\data\Proboscidea.py
+    python .\programs\PyRate\PyRate.py .\pyrate_analysis\Proboscidea.py
     ```
 
 * Mac and Linux
 
     ```
-    python ./programs/PyRate/PyRate.py ./data/Proboscidea.py
+    python ./programs/PyRate/PyRate.py ./pyrate_analysis/Proboscidea.py
     ```
 
 However, this command may get long when you want to add optional arguments for your analyses (e.g. a different preservation model). It is often easier and safer to write your command first in an text editor and then paste it into the terminal. You can add line breaks to separate the individual commands. Windows uses ^ in the command window while Mac/Linux requires a backslash.
