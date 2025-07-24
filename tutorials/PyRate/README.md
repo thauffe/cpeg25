@@ -129,7 +129,7 @@ The PyRate run creates a new folder called _pyrate_mcmc_logs_ in your _pyrate_an
 
 <img src="https://github.com/thauffe/cpeg25/blob/main/pictures/tracer.png" alt="trace plot" width="700">
 
-### Plotting speciation and extinction rates through time
+## Plotting speciation and extinction rates through time
 The _sp_rates.log_ and _ex_rates.log_ files form the _pyrate_mcmc_logs_ folder can be used to generate rates-through-time plots using the function `-plotRJ`. The flag `-b` specifies the burn-in period, which we set to 25%. 
 
 * Windows
