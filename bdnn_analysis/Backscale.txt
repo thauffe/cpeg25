@@ -1,0 +1,3 @@
+BodySize	Paleotemperature
+5	16.8638257139719
+1	2.28825042621581
