@@ -94,7 +94,7 @@ You can write the respective command in a single line in your terminal. Please, 
 
 However, this command may get long when you want to add optional arguments for your analyses (e.g. a different preservation model). It is often easier and safer to write your command first in an text editor and then paste it into the terminal. You can add line breaks to separate the individual commands. Windows uses ^ in the command window while Mac/Linux requires a backslash.
 
-We specify here a model of preservation assuming that preservation rates are constant within a predefined time frame, but can vary across time frames (e.g. geological epochs). This time-variable Poisson process (TPP) model is useful if we expect rate heterogeneity to occur through time. With the `-qShift` flage, you provide the path to a text file with stage boundaries in your _data_ folder.
+We specify here a model of preservation assuming that preservation rates are constant within a predefined time frame, but can vary across time frames (e.g. geological epochs). This time-variable Poisson process (TPP) model is useful if we expect rate heterogeneity to occur through time. With the `-qShift` flag, you provide the path to a text file with stage boundaries in your _pyrate_analysis_ folder.
 
 This models can be coupled with a Gamma model of rate heterogeneity, which enables us to account for heterogeneity in the preservation rate across lineages. To set the Gamma model we add the flag `-mG`.
 
