@@ -6,7 +6,7 @@ You can prepare a table with fossil occurrence data in a text editor or a spread
 
 If a fossil assemblage or site contains several occurrences we should consider these occurrences as coeval even as we randomize their age within their temporal range. This can be done by specifying a _Site_ column in the input data, with a number specifying the ID of the assemblage for each occurrence. For instance in the example below, the first three occurrences were found in the same site and their random age will be identical.
 
-You can find this table called _Proboscidea_occurrences_PyRate.txt_ in the _data_ folder of your cpeg25 repository.
+You can find this table called _Proboscidea.txt_ in the _pyrate_analysis_ folder of your cpeg25 repository.
  
 | Taxon\_name   | Status  | MinAge | MaxAge | Site
 | ------------- |:-------------:| -----:| -----:| -----:|
@@ -146,7 +146,7 @@ The _sp_rates.log_ and _ex_rates.log_ files form the _pyrate_mcmc_logs_ folder c
     -b 0.25
     ```
 
-<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/pyrate_rtt.png" alt="RTT" width="700">
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/pyrate_rtt.png" alt="RTT" width="1000">
 
 Proboscidea speciation rate through time and frequency of Bayes Factors indicating significant posterior probability of a ate shift. 
 
