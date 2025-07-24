@@ -135,8 +135,8 @@ The _sp_rates.log_ and _ex_rates.log_ files form the _pyrate_mcmc_logs_ folder c
 * Windows
 
     ```
-    python .\programs\PyRate\PyRate.py \
-    -plotRJ .\pyrate_analysis\pyrate_mcmc_logs \
+    python .\programs\PyRate\PyRate.py ^
+    -plotRJ .\pyrate_analysis\pyrate_mcmc_logs ^
     -b 0.25
     ```
 
