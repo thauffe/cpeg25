@@ -105,7 +105,7 @@ Lastly, we set the number of mcmc generation `-n`, the sampling frequency of the
     ```
     python .\programs\PyRate\PyRate.py ^
     .\pyrate_analysis\Proboscidea.py ^
-    -qShift .\data\Stages.txt ^
+    -qShift .\pyrate_analysis\Stages.txt ^
     -mG ^
     -n 500000 -s 5000 -p 100000
     ```
@@ -115,7 +115,7 @@ Lastly, we set the number of mcmc generation `-n`, the sampling frequency of the
     ```
     python ./programs/PyRate/PyRate.py \
     ./pyrate_analysis/Proboscidea.py \
-    -qShift ./data/Stages.txt \
+    -qShift ./pyrate_analysis/Stages.txt \
     -mG \
     -n 500000 -s 5000 -p 100000
     ```
