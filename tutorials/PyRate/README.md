@@ -76,7 +76,7 @@ The PyRate inference will be performed in your command window or terminal and ma
     ```
 
 ### Running PyRate MCMC
-To run PyRate, we need to tell ```python``` to execute the ```PyRate.py``` program and provide the input file that we just generated in R.
+To run PyRate, we need to tell `python` to execute the `PyRate.py` program and provide the input file that we just generated in R.
 
 You can write the respective command in a single line in your terminal. Please, do not execute it yet.
 
