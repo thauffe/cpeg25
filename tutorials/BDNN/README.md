@@ -47,7 +47,7 @@ There are a number of additional arguments needed to run the BDNN model:
     We will use species-specific traits, including a categorical measure of body size, geographic distribution across main continents and islands, and taxonomic family membership. The body mass categories are centered in 0 by subtracting the median while geography and family are binary variables.
 
     | Species | Body size | Africa | Americas | Eurasia	| Island | Elephantidae | Gomphotheriidae |
-    |:-------------:| -----------:| -----------:| -----------:| -----------:| -----------:| -----------:|
+    |:-------:| ---------:| ------:| --------:| -------:| ------:| ------------:| ---------------:|
     | Konobelodon\_britti | 1 | 0 | 1 | 0 | 0 | 0 | 1 |
     | Mammuthus\_creticus | -4 | 0 | 0 | 1 | 1 | 1 | 0 |
     | Stegotetrabelodon\_syrticus | 2 | 1 | 0 | 1 | 0 | 1 | 0 |
