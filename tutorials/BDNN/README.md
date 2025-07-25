@@ -47,24 +47,24 @@ There are a number of additional arguments needed to run the BDNN model:
     We will use species-specific traits, including a categorical measure of body size, geographic distribution across main continents and islands, and taxonomic family membership. The body mass categories are centered in 0 by subtracting the median while geography and family are binary variables.
 
     | Species | Body size | Africa | Americas | Eurasia	| Island | Elephantidae | Gomphotheriidae |
-|:-------------:| -----------:| -----------:| -----------:| -----------:| -----------:| -----------:|
-| Konobelodon\_britti | 1 | 0 | 1 | 0 | 0 | 0 | 1 |
-| Mammuthus\_creticus | -4 | 0 | 0 | 1 | 1 | 1 | 0 |
-| Stegotetrabelodon\_syrticus | 2 | 1 | 0 | 1 | 0 | 1 | 0 |
+    |:-------------:| -----------:| -----------:| -----------:| -----------:| -----------:| -----------:|
+    | Konobelodon\_britti | 1 | 0 | 1 | 0 | 0 | 0 | 1 |
+    | Mammuthus\_creticus | -4 | 0 | 0 | 1 | 1 | 1 | 0 |
+    | Stegotetrabelodon\_syrticus | 2 | 1 | 0 | 1 | 0 | 1 | 0 |
 
 3. **Adding time-dependent variables.** For these workshop, these are are a global temperature curve and the binary factor _Humans_ where we naively assume that humans are globally present since 100,000 years ago. There is no strong evidence that humans influence the speciation rate, so we provide separate text files with time-dependent variables to the `-BDNNtimevar` option, whereas typically a single file is sufficient. The file for speciation has the _Humans_ predictor set to zero, while the file for extinction includes the binary coding. Continuous predictors like the paleotemperature should be z-scaled (i.e. subtract the mean and divide by the standard deviation) to aid MCMC convergence.
 
     | Age | Paleotemperature | Humans |
-|:-:|:-:|:-:|
-| 0 | -1.49 | 1 |
-| 0.05 | -3.05 | 1 |
-| 0.1 | 2.53 | 1 |
-| 0.2 | -1.95 | 0 |
-| . | . | . |
-| . | . | . |
-| . | . | . |
-| 39.80 | 2.43 | 0 |
-| 39.90 | 2.48 | 0 |
+    |:-:|:-:|:-:|
+    | 0 | -1.49 | 1 |
+    | 0.05 | -3.05 | 1 |
+    | 0.1 | 2.53 | 1 |
+    | 0.2 | -1.95 | 0 |
+    | . | . | . |
+    | . | . | . |
+    | . | . | . |
+    | 39.80 | 2.43 | 0 |
+    | 39.90 | 2.48 | 0 |
 
 
 By default, the mean or modal values of the time-dependent variables are computed in 1-million-year time bins (or the value of `-BDNNtimeres`). This would conceal the Plio-Pleistocene climate fluctuations, whereas earlier, more constant conditions do not require such high temporal resolution. Thus, we use stages as time windows and subject them to the `-fixShift` argument.
@@ -156,7 +156,7 @@ We also set the `-resample` argument to 50 for not creating the effect plots bas
     -resample 50
     ```
 
-<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/bdnn_pdp_geography.png" alt="trace plot" width="1000">
+<img src="https://github.com/thauffe/cpeg25/blob/main/pictures/bdnn_pdp_geography.png" alt="trace plot" width="700">
 
 Partial dependent (PD) speciation rate for the predictor geography. PD plots convey the effect of one or two predictors by marginalizing over the remaining one (i.e. ignoring their effect by averaging over them).
 
