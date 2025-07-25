@@ -12,12 +12,14 @@ Understanding how biodiversity has changed through geological time and which mec
 To get ready for the workshop, please follow the installation [instructions](https://github.com/thauffe/cpeg25/tree/main/programs)
 
 ## Tutorials
-Coming soon!
+1. [PyRate](https://github.com/thauffe/cpeg25/tree/main/tutorials/PyRate)
+2. [BDNN](https://github.com/thauffe/cpeg25/tree/main/tutorials/BDNN)
+3. DeepDive coming soon!
 
 ## Further reading
-Here are some papers describing the methods we'll present at the workshop:  
-PyRate: [Silvestro et al. 2019 Paleobiology](https://doi.org/10.1017/pab.2019.23)  
-BDNN model: [Hauffe et al. 2024 Science Adv](https://www.science.org/doi/full/10.1126/sciadv.adl2643)  
+Here are some papers describing the methods we'll present at the workshop:
+PyRate: [Silvestro et al. 2019 Paleobiology](https://doi.org/10.1017/pab.2019.23)
+BDNN model: [Hauffe et al. 2024 Science Adv](https://www.science.org/doi/full/10.1126/sciadv.adl2643)
 DeepDive: [Cooper et al. 2024 Nature Comms](https://www.nature.com/articles/s41467-024-48434-7), application note: [Cooper et al. 2024 bioRxiv](https://doi.org/10.1101/2024.09.03.610960)
 
 
