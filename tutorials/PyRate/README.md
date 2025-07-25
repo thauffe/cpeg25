@@ -167,4 +167,4 @@ If you use Windows and an error message containing _Rscript.exe not found_ appea
     ```
     path_plotting_script <- file.path("pyrate_analysis", "pyrate_mcmc_logs", "RTT_plots.r")
     source(path_plotting_script)
-    ``
+    ```
