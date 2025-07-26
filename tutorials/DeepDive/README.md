@@ -27,6 +27,11 @@ We can then load the `DeepDiveR` package.
 library(DeepDiveR)
 ```
 
+```
+# Load proboscidean data
+proboscidea <- read.csv("Proboscidea_occurrences_DD.csv")
+```
+
 
 Next, we will view the first few rows of the `data.frame` to get a sense of its contents.
 
