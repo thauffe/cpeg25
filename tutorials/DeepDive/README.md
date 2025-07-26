@@ -201,7 +201,7 @@ Now we are ready to run the analysis for real!
 * On windows:
   
     ```
-    python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -plot_features -cpu 2
+    python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -cpu 2
     ```
 
 * On Mac and Linux:
