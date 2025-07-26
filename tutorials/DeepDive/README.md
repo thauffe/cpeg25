@@ -201,13 +201,13 @@ Now we are ready to run the analysis for real!
 * On windows:
   
     ```
-    python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -cpu 2
+    python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -cpu 3
     ```
 
 * On Mac and Linux:
 
     ```
-    python ./programs/deepdive/run_dd_config.py ./deepdive_analysis/proboscidea_config.ini -cpu 2
+    python ./programs/deepdive/run_dd_config.py ./deepdive_analysis/proboscidea_config.ini -cpu 3
     ```
 
 This script will create a "simulations" folder containing the training and test sets of simulations and a "trained_models" folder containing the models and plots of training history. This folder additionally includes plots of features of the empirical and simulated records (e.g. number of occurrences through time and per region, number of localities, fraction of singletons and sampled diversity), CSV files with the predicted diversity trajectories for the test set and for the empirical dataset, and a plot of the estimated diversity trajectory.
