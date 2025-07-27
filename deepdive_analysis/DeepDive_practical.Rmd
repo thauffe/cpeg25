@@ -69,7 +69,7 @@ bins <- c(66, 65, 64, 63, 61.6, 60, 59.2, 58.13333, 57.06667, 56, 54.975, 53.95,
 ```
 
 Now we can prepare the input file for `DeepDive`, using the function `prep_dd_input`. Here we need to specify the `data.frame` containing the occurrence data and vector of time bins.
-We also want to provide the number of replicates, i.e. how many times we want the occurrences to be placed into the time bins. Here we will specify 10 replicates, to illustrate the process, but a higher number of replicates is needed to capture temporal uncertainty in final analyses e.g. 100 (for a dataset of this size 100 replicates takes approximately 7 minutes to run).
+We also want to provide the number of replicates, i.e. how many times we want the occurrences to be placed into the time bins. Here we will specify 10 replicates, to illustrate the process, but a higher number of replicates is needed to capture temporal uncertainty in final analyses e.g. 100 (for a dataset of this size 100 replicates takes approximately 7 minutes to run, for a real analysis you should increase to e.g. 50000 trainning simulations and 5000 test simulations).
 Finally, we also need to give the name of the file that we want to be created. The file takes the form `.csv`, indicating that the values are comma-separated. This will be the file we need to input into `DeepDive`.
 
 
@@ -190,7 +190,7 @@ python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -plot_features 
 
 You can now navigate to the folder "proboscidea_output_feature_plots" to see plots of the empirical fossil record and of your initial simulations. In an ideal world, the goal is for the empirical fossil record (blue data) to fall within the range of the simulated fossil record (orange). If it does not, you can adjust the parameters of the configuration and repeat this initial simulation step until you are satisfied. Checking that the simulations reflect the distribution of the empirical fossil record helps us to avoid potential sources of extrapolation error.
 
-Now we are ready to run the analysis for real!
+Now we are ready to run the analysis for real! 
 
   
 ```{python run, eval = FALSE, python.reticulate = FALSE}
