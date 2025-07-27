@@ -42,7 +42,7 @@ the repository for the workshop, and can be downloaded from the GitHub.
 
 ``` r
 # Load proboscidean data
-path_dat <- "~/GitHub/cpeg25/deepdive_analysis"
+path_dat <- "~/cpeg25/deepdive_analysis"
 proboscidea <- read.csv(paste0(path_dat, "/Proboscidea_occurrences_DD.csv"))
 ```
 
