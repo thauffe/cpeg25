@@ -14,7 +14,7 @@ To get ready for the workshop, please follow the installation [instructions](htt
 ## Tutorials
 1. [PyRate](https://github.com/thauffe/cpeg25/tree/main/tutorials/PyRate)
 2. [BDNN](https://github.com/thauffe/cpeg25/tree/main/tutorials/BDNN)
-3. DeepDive coming soon!
+3. [DeepDive](https://github.com/thauffe/cpeg25/blob/main/deepdive_analysis/DeepDive_practical.md)
 
 ## Further reading
 Here are some papers describing the methods we'll present at the workshop:
