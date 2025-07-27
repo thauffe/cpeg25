@@ -101,7 +101,9 @@ number of replicates, i.e. how many times we want the occurrences to be
 placed into the time bins. Here we will specify 10 replicates, to
 illustrate the process, but a higher number of replicates is needed to
 capture temporal uncertainty in final analyses e.g. 100 (for a dataset
-of this size 100 replicates takes approximately 7 minutes to run).
+of this size 100 replicates takes approximately 7 minutes to run; for a 
+real analysis you should increase this number to e.g. 50,000 training 
+simulations and 1000 test simulations).
 Finally, we also need to give the name of the file that we want to be
 created. The file takes the form `.csv`, indicating that the values are
 comma-separated. This will be the file we need to input into `DeepDive`.
