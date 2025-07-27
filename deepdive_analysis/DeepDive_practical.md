@@ -196,13 +196,13 @@ simulations. Again we will edit the relevant parameters in the
 configuration file using the `edit_config` function:
 
 ``` r
-# Set number of training simulations to 100
+# Set number of training simulations to 1000
 edit_config(config = config,
             module = "simulations",
             parameter = "n_training_simulations", 
             value = 1000)
 
-# Set number of test simulations to 10
+# Set number of test simulations to 100
 edit_config(config = config,
             module = "simulations",
             parameter = "n_test_simulations", 
