@@ -1,7 +1,7 @@
 ---
 title: "Inferring the evolutionary history of the Proboscidea"
 author: "Rebecca Cooper"
-output: rmarkdown::html_document
+output: rmarkdown::github_document
 vignette: >
   %\VignetteIndexEntry{Inferring the evolutionary history of the     Proboscidea}
   %\VignetteEngine{knitr::rmarkdown}
@@ -200,5 +200,9 @@ python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -cpu 2
 This script will create a "simulations" folder containing the training and test sets of simulations and a "trained_models" folder containing the models and plots of training history. This folder additionally includes plots of features of the empirical and simulated records (e.g. number of occurrences through time and per region, number of localities, fraction of singletons and sampled diversity), CSV files with the predicted diversity trajectories for the test set and for the empirical dataset, and a plot of the estimated diversity trajectory.
 
 # References
+
+
 Cooper, R. B., Allen, B. J., & Silvestro, D. (2024). DeepDiveR–A software for deep learning estimation of palaeodiversity from fossil occurrences. bioRxiv, 2024-09.
+
+
 Cantalapiedra, J. L. et al. (2021) The rise and fall of proboscidean ecological diversity. Nat. Ecol. Evol. 5, 1266–1272.
