@@ -178,3 +178,26 @@ If you use Windows and an error message containing _Rscript.exe not found_ appea
     path_plotting_script <- file.path("pyrate_analysis", "pyrate_mcmc_logs", "RTT_plots.r")
     source(path_plotting_script)
     ```
+
+
+## Plotting sampling rates throught time
+
+We can also plot the sampling rate through time
+
+* Windows
+
+    ```
+    python .\programs\PyRate\PyRate.py ^
+    -plotQ .\pyrate_analysis\pyrate_mcmc_logs\Proboscidea_1_Grj_mcmc.log ^
+    -qShift .\pyrate_analysis\Stages.txt ^
+    -b 0.25
+    ```
+
+* Mac and Linux
+
+    ```
+    python ./programs/PyRate/PyRate.py \
+    -plotQ ./pyrate_analysis/pyrate_mcmc_logs/Proboscidea_1_Grj_mcmc.log \
+    -qShift ./pyrate_analysis/Stages.txt \
+    -b 0.25
+    ```
