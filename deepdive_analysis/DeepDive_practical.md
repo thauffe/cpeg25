@@ -261,7 +261,7 @@ analysis in the command line. Any settings specified by using flags will
 overwrite the configuration settings:
 
 ``` python
-python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
+python .\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
 ```
 
 You can now navigate to the folder “proboscidea_output_feature_plots” to
@@ -277,7 +277,7 @@ extrapolation error.
 Now we are ready to run the analysis for real!
 
 ``` python
-python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -cpu 2
+python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -cpu 2
 ```
 
 This script will create a “simulations” folder containing the training
