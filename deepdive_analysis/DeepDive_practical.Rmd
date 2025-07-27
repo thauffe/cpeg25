@@ -145,13 +145,13 @@ regions_matrix(config = config, region_ages = region_ages)
 Now we need to describe the technical aspects of the neural network training and analysis process. For a reliable estimate, you will need at least 10,000 training simulations. However, for the purpose of running a quick test analysis, we will use a low number of both training and test simulations. Again we will edit the relevant parameters in the configuration file using the `edit_config` function:
 
 ```{r describe_setup}
-# Set number of training simulations to 100
+# Set number of training simulations to 1000
 edit_config(config = config,
             module = "simulations",
             parameter = "n_training_simulations", 
             value = 1000)
 
-# Set number of test simulations to 10
+# Set number of test simulations to 100
 edit_config(config = config,
             module = "simulations",
             parameter = "n_test_simulations", 
