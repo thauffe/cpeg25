@@ -258,11 +258,14 @@ expect.
 Additional flags, -wd and -cpu are available that can allow you to
 adjust the location of your folder and the number of cpus to run the
 analysis in the command line. Any settings specified by using flags will
-overwrite the configuration settings:
+overwrite the configuration settings (remember to replace the `...` with 
+the full path to your cpeg25 folder:
 
 ``` python
-
-python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
+cd /.../cpeg25 
+source venv/bin/activate
+cd programs/deepdive
+python run_dd_config.py /.../cpeg25/deepdive_analysis/proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
 ```
 
 You can now navigate to the folder “proboscidea_output_feature_plots” to
@@ -278,7 +281,7 @@ extrapolation error.
 Now we are ready to run the analysis for real!
 
 ``` python
-python .\programs\deepdive\run_dd_config.py .\deepdive_analysis\proboscidea_config.ini -cpu 2
+python run_dd_config.py /.../cpeg25/deepdive_analysis/proboscidea_config.ini -cpu 2
 ```
 
 This script will create a “simulations” folder containing the training
