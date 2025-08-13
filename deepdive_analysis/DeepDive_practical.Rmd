@@ -43,7 +43,7 @@ First we will load our proboscidean occurrence data. This is located in the repo
 
 ```{r load_data}
 # Load proboscidean data
-path_dat <- "~/cpeg25/deepdive_analysis"
+path_dat <- "/home/torsten/Work/Courses/CPEG2025/github/cpeg25/deepdive_analysis"
 proboscidea <- read.csv(paste0(path_dat, "/Proboscidea_occurrences_DD.csv"))
 ```
 
