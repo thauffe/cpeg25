@@ -185,7 +185,7 @@ First we will add some flags to run just a test batch of 100 simulations using -
 Additional flags, -wd and -cpu are available that can allow you to adjust the location of your folder and the number of cpus to run the analysis in the command line. Any settings specified by using flags will overwrite the configuration settings:
   
 ```{python test run, eval = FALSE, python.reticulate = FALSE}
-python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
+python .\programs\deepdive\run_dd_config.py .\proboscidea_config.ini -plot_features -n_sims 100 -cpu 2
 ```
 
 You can now navigate to the folder "proboscidea_output_feature_plots" to see plots of the empirical fossil record and of your initial simulations. In an ideal world, the goal is for the empirical fossil record (blue data) to fall within the range of the simulated fossil record (orange). If it does not, you can adjust the parameters of the configuration and repeat this initial simulation step until you are satisfied. Checking that the simulations reflect the distribution of the empirical fossil record helps us to avoid potential sources of extrapolation error.
@@ -194,7 +194,7 @@ Now we are ready to run the analysis for real!
 
   
 ```{python run, eval = FALSE, python.reticulate = FALSE}
-python .\deepdive-main\run_dd_config.py .\proboscidea_config.ini -cpu 2
+python .\programs\deepdive\run_dd_config.py .\proboscidea_config.ini -cpu 2
 ```
 
 This script will create a "simulations" folder containing the training and test sets of simulations and a "trained_models" folder containing the models and plots of training history. This folder additionally includes plots of features of the empirical and simulated records (e.g. number of occurrences through time and per region, number of localities, fraction of singletons and sampled diversity), CSV files with the predicted diversity trajectories for the test set and for the empirical dataset, and a plot of the estimated diversity trajectory.
